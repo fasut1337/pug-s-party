@@ -1,0 +1,77 @@
+body{
+    font-family:'Anek Malayalam', sans-serif;;
+    margin: 0;
+
+}
+ *{
+    box-sizing: border-box;
+ }
+
+
+.container {
+    background: black;
+    width: 100%;
+    max-width: 1200px;
+    height: 70px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    
+   
+}
+
+
+.logo {
+   
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 0px;
+}
+
+
+
+
+.nav { 
+    font-size: 20px;
+    color:white ;
+}
+
+
+
+.nav_link_left{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    right: 150px;    
+    bottom: 35px;
+    margin: 0 15px;
+}
+
+.nav_link_right{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 150px;
+    bottom: 35px;
+    margin: 0 15px;
+
+}   
+
+.nav a:hover{
+    color: rgb(250, 219, 132);
+    transition: 0.3s all;
+    border-bottom: 2px solid rgb(250, 219, 132) ;
+}
+
+
+
+
+
+
+
+
+
+
